@@ -4,15 +4,24 @@ h1 {
 
 .basicinfo {
   display: flex;
-  justify-content: space-around;
 }
 
-/* .subcommittee {
-  list-style: none;
-} */
+article {
+  margin: 20px;
+  font-size: xx-large;
+}
 
-/* article {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-} */
+.committees {
+  background-color: rgb(202, 228, 236);
+  padding-left: 5px;
+}
+
+.committees p {
+  font-size: large;
+  text-decoration: underline;
+}
+
+.enactedlegislation {
+  background-color: rgb(202, 228, 236);
+  padding-left: 5px;
+}
